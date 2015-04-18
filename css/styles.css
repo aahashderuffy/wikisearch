@@ -25,7 +25,7 @@ margin: 0px;
 }
 
 #logo {
-	background-image: url("logo.png");
+	background-image: url("../images/logo.png");
 	height: 95px;
 	width: 275px;
 	margin: 10px;
