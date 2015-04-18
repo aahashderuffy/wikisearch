@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html ng-app>
+<head>
+  <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:600,300" rel="stylesheet" type="text/css"/>
+  <link rel="stylesheet" type="text/css" href="css/demo.css"/>
+  <link rel="stylesheet" type="text/css" href="https://github.com/ConnorAtherton/loaders.css"/>
+</head>
+<body>
+  <main>
 
-	<p class="SearchLoader">Search "{{SearchLoader}}" for you...</p>
+    <div class="loaders">
+      <div class="loader">
+        <div class="loader-inner ball-clip-rotate-pulse">
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </div>
 
-</html>
+  	<p class="SearchLoader">Search "{{SearchLoader}}" for you...</p>
+
+  </main>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      document.querySelector('main').className += 'loaded';
+    });
+  </script>
+</body>
