@@ -43,7 +43,8 @@ $(function() {
 			}
 		}
 		
-		hexphrase = phraseToHex("iSC Inc. Wiki Search");
+		hexphrase = phraseToHex("iSC Inc.");
+		hexphrase = phraseToHex("Wiki Search");
 		
 		for(jj=0; jj<hexphrase.length; jj+=2) {
 			var cc_hex = "A" + hexphrase.charAt(jj) + hexphrase.charAt(jj+1);
